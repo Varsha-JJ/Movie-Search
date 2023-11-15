@@ -1,0 +1,86 @@
+.headmain{
+    width: 100%;
+    height: 200px;
+    background-color: #232324;
+}
+.input-align{
+    margin-left: 400px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-control{
+    width: 600px!important;
+    height: 60px;
+    border-radius:0px!important;
+    border: none;
+    outline: none;
+}
+/* body  */
+.container-fluid{
+    width: 100%;
+    height: 100%!important;
+    background-color: rgb(254, 254, 254)!important;
+    padding-left: 105px!important;
+    padding-right: 105px!important;
+    padding-top: 33px!important;
+}
+
+.card{
+    width: 18rem;
+    margin-top: 0px;
+    height: 350px!important;
+    border-radius: 5px;
+   
+}
+
+img{
+    width: 18rem;
+    height: 350px;
+    /* border-radius: 50%; */
+}
+
+button{
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(233, 136, 17);
+    outline: none;
+    /* border-radius: 10px; */
+}
+
+body{
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.alig{
+    padding-top: 30px;
+}
+
+
+.cards{
+    width: 700px!important;
+    margin-top: 0px;
+    height: 500px!important;
+    
+}
+.btns{
+    width: 140px;
+    height: 40px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.image :hover{
+    transform: scaleX(1.1);
+}
+
+.poster{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
