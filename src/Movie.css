@@ -1,86 +1,46 @@
-.headmain{
-    width: 100%;
-    height: 200px;
-    background-color: #232324;
-}
-.input-align{
-    margin-left: 400px;
-    padding-top: 40px;
+/* movie search  */
+
+.alignsearch{
     display: flex;
     flex-wrap: wrap;
-}
-.form-control{
-    width: 600px!important;
-    height: 60px;
-    border-radius:0px!important;
-    border: none;
-    outline: none;
-}
-/* body  */
-.container-fluid{
-    width: 100%;
-    height: 100%!important;
-    background-color: rgb(254, 254, 254)!important;
-    padding-left: 105px!important;
-    padding-right: 105px!important;
-    padding-top: 33px!important;
-}
-
-.card{
-    width: 18rem;
-    margin-top: 0px;
-    height: 350px!important;
-    border-radius: 5px;
-   
-}
-
-img{
-    width: 18rem;
-    height: 350px;
-    /* border-radius: 50%; */
-}
-
-button{
-    width: 100px;
-    border: none;
-    color: white;
-    background-color: rgb(233, 136, 17);
-    outline: none;
-    /* border-radius: 10px; */
-}
-
-body{
-    background-color: rgb(255, 255, 255)!important;
-}
-
-.alig{
-    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 
-.cards{
-    width: 700px!important;
-    margin-top: 0px;
-    height: 500px!important;
-    
+
+
+/* detail  */
+
+.cardalign{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.btns{
-    width: 140px;
-    height: 40px;
-    margin-left: 80px;
-    margin-bottom: 30px;
+
+.cardstyles{
+    border: 0px!important;
     border-radius: 3px;
+    height: 600px;
+}
+.imgsty{
+    height: 600px;
+}
+.cardstyle{
+    border: 0px!important;
+    border-radius: 3px;
+    height: 500px!important;
 }
 
-.image :hover{
-    transform: scaleX(1.1);
+.cardbody{
+    border: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
 
-.poster{
-    width: 300px;
-    height: 400px;
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 10px;
-}
+.titlesty{
+    font-weight: bold!important;
+    font-size: 2.5rem!important;
 
+}
