@@ -1,8 +1,9 @@
-import React, { useState,useEffect} from 'react';
-import './Movie.css';
+import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Card from 'react-bootstrap/Card';
+import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+
 
 
 
@@ -17,21 +18,25 @@ const Detailmovie =() => {
           })
     },[])
   return (
-    <div className='container-fluid'>
-            <div class="row">
-            <div class="col-sm-12">
-                <div class="card m-lg-5 cards">
-                    <div class="card-body">
-                        <img src={data.Poster} alt="poster" class="poster"/>
-                        <h5 class="card-title">Movie name : {data.Title}</h5>
-                        <p class="card-text">Type : {data.Type}</p>
-                        <p class="card-text">Year : {data.Year}</p>
-                        <p class="card-text">Released : {data.Released}</p>
-                        <p class="card-text">Language : {data.Language}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div className='cardalign'>
+      <Card style={{ width: '30rem' }} className='cardstyles mt-5'>
+      <Card.Img variant="top" src={data.Poster} className='imgsty'/>
+    </Card>
+
+    <Card style={{ width: '40rem' }} className='cardstyle mt-5'>
+      <Card.Body className='cardbody'>
+        <Card.Title className='titlesty mt-5'>{data.Title}</Card.Title>
+        <Card.Subtitle className="mb-2 mt-3">Released : {data.Released}</Card.Subtitle>
+        <Card.Text>
+          {data.Plot}
+        </Card.Text>
+        <Card.Subtitle className="mb-2 mt-3">Language : {data.Language}</Card.Subtitle>
+        <Card.Subtitle className="mb-2 mt-3">Actors : {data.Actors}</Card.Subtitle>
+        <Card.Subtitle className="mb-2 mt-3">Genre : {data.Genre}</Card.Subtitle>
+        <Link to='/'><button className='btn'>Go back</button></Link>
+      </Card.Body>
+    </Card>
+    <div></div>
     </div>
     
   )
