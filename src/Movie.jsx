@@ -45,6 +45,7 @@ const Movie = () => {
                ))}
             </div>
       </div>
+      <div></div>
     </div>
   )
 }
